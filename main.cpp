@@ -1,11 +1,11 @@
 #include <iostream>
 #include <limits>
 #include <queue>
-#include "box2d.h"
-#include "point2d.h"
-#include "image2d.h"
-#include "neighb2d_iterator.h"
 #include "utils.h"
+#include "image2d.h"
+#include "box2d_iterator.h"
+#include "neighb2d_iterator.h"
+
 using bool_t = int;
 
 image2d<unsigned> compute_dmap__SPECIFIC(const image2d<bool_t>& input){

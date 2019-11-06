@@ -4,12 +4,9 @@
 #pragma once
 
 #include "point2d.h"
-#include "box2d_iterator.h"
-#include "neighb2d_iterator.h"
 
 class box2d_iterator;
 class neighb2d_iterator;
-
 
 class box2d {
 public:
@@ -22,7 +19,6 @@ public:
 
     const point_type& fp_;
     const point_type& lp_;
-    box2d_iterator iterator();
     bool has(const point_type &p) const;
     int rows() const;
     int cols() const;

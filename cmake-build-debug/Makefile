@@ -48,10 +48,10 @@ RM = /home/josselin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/josselin/Documents/cpp_genericity/projet
+CMAKE_SOURCE_DIR = /home/josselin/Documents/cpp_genericity/genericity_cpp_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/josselin/Documents/cpp_genericity/projet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/josselin/Documents/cpp_genericity/genericity_cpp_project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/josselin/Documents/cpp_genericity/projet/cmake-build-debug/CMakeFiles /home/josselin/Documents/cpp_genericity/projet/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josselin/Documents/cpp_genericity/genericity_cpp_project/cmake-build-debug/CMakeFiles /home/josselin/Documents/cpp_genericity/genericity_cpp_project/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/josselin/Documents/cpp_genericity/projet/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josselin/Documents/cpp_genericity/genericity_cpp_project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

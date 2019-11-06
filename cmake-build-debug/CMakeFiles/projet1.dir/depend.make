@@ -3,14 +3,11 @@
 
 CMakeFiles/projet1.dir/box2d.cpp.o: ../box2d.cpp
 CMakeFiles/projet1.dir/box2d.cpp.o: ../box2d.h
-CMakeFiles/projet1.dir/box2d.cpp.o: ../box2d_iterator.h
-CMakeFiles/projet1.dir/box2d.cpp.o: ../neighb2d_iterator.h
 CMakeFiles/projet1.dir/box2d.cpp.o: ../point2d.h
 
 CMakeFiles/projet1.dir/box2d_iterator.cpp.o: ../box2d.h
 CMakeFiles/projet1.dir/box2d_iterator.cpp.o: ../box2d_iterator.cpp
 CMakeFiles/projet1.dir/box2d_iterator.cpp.o: ../box2d_iterator.h
-CMakeFiles/projet1.dir/box2d_iterator.cpp.o: ../neighb2d_iterator.h
 CMakeFiles/projet1.dir/box2d_iterator.cpp.o: ../point2d.h
 
 CMakeFiles/projet1.dir/main.cpp.o: ../box2d.h

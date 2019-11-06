@@ -5,10 +5,6 @@
 #include <iostream>
 #include "box2d.h"
 
-box2d::p_iterator_type box2d::iterator(){
-    return box2d::p_iterator_type(*this);
-}
-
 bool box2d::has(const box2d::point_type &p) const {
     return (p.col >= fp_.col && p.col <= lp_.col && p.row >= fp_.row && p.row <= lp_.row);
 }

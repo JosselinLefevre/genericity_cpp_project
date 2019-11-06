@@ -6,69 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/josselin/Documents/cpp_genericity/projet/box2d.cpp
-iostream
--
-box2d.h
-/home/josselin/Documents/cpp_genericity/projet/box2d.h
-
-/home/josselin/Documents/cpp_genericity/projet/box2d.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d.h
 point2d.h
-/home/josselin/Documents/cpp_genericity/projet/point2d.h
-box2d_iterator.h
-/home/josselin/Documents/cpp_genericity/projet/box2d_iterator.h
-neighb2d_iterator.h
-/home/josselin/Documents/cpp_genericity/projet/neighb2d_iterator.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h
 
-/home/josselin/Documents/cpp_genericity/projet/box2d_iterator.cpp
-box2d_iterator.h
-/home/josselin/Documents/cpp_genericity/projet/box2d_iterator.h
-iostream
--
-
-/home/josselin/Documents/cpp_genericity/projet/box2d_iterator.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d_iterator.h
 box2d.h
-/home/josselin/Documents/cpp_genericity/projet/box2d.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d.h
 
-/home/josselin/Documents/cpp_genericity/projet/image2d.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/image2d.h
 vector
 -
 box2d.h
-/home/josselin/Documents/cpp_genericity/projet/box2d.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d.h
 cassert
 -
 
-/home/josselin/Documents/cpp_genericity/projet/main.cpp
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/main.cpp
 iostream
 -
 limits
 -
 queue
 -
-box2d.h
-/home/josselin/Documents/cpp_genericity/projet/box2d.h
-point2d.h
-/home/josselin/Documents/cpp_genericity/projet/point2d.h
-image2d.h
-/home/josselin/Documents/cpp_genericity/projet/image2d.h
-neighb2d_iterator.h
-/home/josselin/Documents/cpp_genericity/projet/neighb2d_iterator.h
 utils.h
-/home/josselin/Documents/cpp_genericity/projet/utils.h
-
-/home/josselin/Documents/cpp_genericity/projet/neighb2d_iterator.cpp
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/utils.h
+image2d.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/image2d.h
+box2d_iterator.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d_iterator.h
 neighb2d_iterator.h
-/home/josselin/Documents/cpp_genericity/projet/neighb2d_iterator.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.h
 
-/home/josselin/Documents/cpp_genericity/projet/neighb2d_iterator.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.h
 vector
 -
 point2d.h
-/home/josselin/Documents/cpp_genericity/projet/point2d.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h
 
-/home/josselin/Documents/cpp_genericity/projet/point2d.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h
 
-/home/josselin/Documents/cpp_genericity/projet/utils.h
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/utils.h
 algorithm
 -
 cstddef

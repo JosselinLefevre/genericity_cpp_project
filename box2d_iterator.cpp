@@ -6,7 +6,7 @@
 #include "box2d_iterator.h"
 #include <iostream>
 
-box2d_iterator::box2d_iterator(box2d box): dom_(box), curr_p(box.fp_.row, box.fp_.col){
+box2d_iterator::box2d_iterator(const box2d& box): dom_(box), curr_p(box.fp_.row, box.fp_.col){
 }
 void box2d_iterator::start() {
     this->curr_p = this->dom_.fp_;
