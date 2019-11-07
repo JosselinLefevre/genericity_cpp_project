@@ -2,13 +2,14 @@
 // Created by josselin on 21/10/2019.
 //
 
+#include <iostream>
 #include "neighb2d_iterator.h"
 
-neighb2d_iterator::neighb2d_iterator() {
-    delta_.push_back(point2d(-1, 0));
-    delta_.push_back(point2d(0, -1));
-    delta_.push_back(point2d(1, 0));
-    delta_.push_back(point2d(0, 1));
+neighb2d_iterator::neighb2d_iterator(unsigned nrows, unsigned ncols) : i_{0}, nrows_{nrows}, ncols_{ncols} {
+    delta_.emplace_back(-1, 0);
+    delta_.emplace_back(0, -1);
+    delta_.emplace_back(1, 0);
+    delta_.emplace_back(0, 1);
 
 }
 
@@ -21,6 +22,10 @@ void neighb2d_iterator::start() {
 }
 
 bool neighb2d_iterator::is_valid() {
+    point2d a = point2d();
+    if(!(a.row<nrows_&&a.col<nrows_&&a.row>=0&&a.col>=0)&&i_<5)
+        i_++;
+
     return i_<5;
 }
 
@@ -28,7 +33,9 @@ void neighb2d_iterator::next() {
     i_++;
 }
 
-point2d &neighb2d_iterator::value() {
-    return p_+delta_[i_];
+point2d neighb2d_iterator::value() {
+    return point2d();
 }
+
+
 

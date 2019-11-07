@@ -14,15 +14,16 @@ public:
     using p_iterator_type = box2d_iterator;
     using n_iterator_type = neighb2d_iterator;
     box2d(const point_type &fp, const point_type &lp);
+    box2d();
     ~box2d();
-    const box2d& operator=(box2d&) const;
+    box2d& operator=(const box2d& b);
 
-    const point_type& fp_;
-    const point_type& lp_;
+    point_type fp_;
+    point_type lp_;
     bool has(const point_type &p) const;
     int rows() const;
     int cols() const;
 private:
-    const int nrows, ncols;
+    int nrows, ncols;
 };
 

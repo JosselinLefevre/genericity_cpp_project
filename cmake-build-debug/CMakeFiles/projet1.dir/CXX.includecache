@@ -6,35 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d.h
-point2d.h
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h
-
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d_iterator.h
-box2d.h
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d.h
-
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/image2d.h
-vector
--
-box2d.h
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d.h
-cassert
--
-
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/main.cpp
+/home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.cpp
 iostream
 -
-limits
--
-queue
--
-utils.h
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/utils.h
-image2d.h
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/image2d.h
-box2d_iterator.h
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d_iterator.h
 neighb2d_iterator.h
 /home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.h
 
@@ -45,16 +19,6 @@ point2d.h
 /home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h
 
 /home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h
-
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/utils.h
-algorithm
--
-cstddef
--
-iomanip
--
-ostream
--
-sstream
+iostream
 -
 

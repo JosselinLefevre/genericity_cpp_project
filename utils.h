@@ -18,7 +18,6 @@ namespace utils {
         p_it.start();
         auto max = img(p_it.value());
         for (p_it.next(); p_it.is_valid(); p_it.next()) {
-            std::cout << img(p_it.value()) << std::endl;
             const auto tmp = img(p_it.value());
             if (max < tmp) {
                 max = tmp;

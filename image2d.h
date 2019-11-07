@@ -27,21 +27,23 @@ public :
     T operator()(const point_type& p) const;
 
 private:
+    unsigned ncols_;
+    unsigned nrows_;
     domain_type d_;
     std::vector<T> data_;
 };
 
 template<typename T>
-image2d<T>::image2d(const image2d::domain_type &d) :d_{d}{
-
+image2d<T>::image2d(const image2d::domain_type &d) :d_{d}, nrows_{static_cast<unsigned int>(d.rows())}, ncols_{static_cast<unsigned int>(d.cols())}{
+    data_ = std::vector<T>(ncols_*nrows_);
 }
 template<typename T>
-image2d<T>::image2d(unsigned nrows, unsigned ncols) {
+image2d<T>::image2d(unsigned nrows, unsigned ncols) : nrows_{nrows}, ncols_{ncols} {
 
 }
 
 template<typename T>
-image2d<T>::image2d(unsigned nrows, unsigned ncols, std::vector<T> &v) :d_{domain_type(point2d(), point2d(ncols-1, nrows-1))}{
+image2d<T>::image2d(unsigned nrows, unsigned ncols, std::vector<T> &v) : nrows_{nrows}, ncols_{ncols}, d_{domain_type(point2d(), point2d(ncols-1, nrows-1))}{
     assert(v.size() == ncols*nrows);
     data_ = v;
 }
@@ -53,16 +55,14 @@ auto image2d<T>::domain() const -> const domain_type& {
 
 template<typename T>
 T &image2d<T>::operator()(const image2d::point_type &p){
-    unsigned nc = d_.lp_.row - d_.fp_.row;
-
-    return data_[p.col * nc + p.row];
+    unsigned nc = d_.cols();
+    return data_[p.row * nc + p.col];
 }
 
 template<typename T>
 T image2d<T>::operator()(const image2d::point_type &p) const {
-    unsigned nc = d_.lp_.row - d_.fp_.row;
-
-    return data_[p.col * nc + p.row];
+    unsigned nc = d_.cols();
+    return data_[p.row * nc + p.col];
 }
 
 #endif //PROJET1_IMAGE2D_H

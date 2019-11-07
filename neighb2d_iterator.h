@@ -11,14 +11,22 @@
 
 class neighb2d_iterator {
 public:
-    explicit neighb2d_iterator();
+    explicit neighb2d_iterator(unsigned nrows, unsigned ncols);
     void center_at(point2d& p);
     void start();
     bool is_valid();
     void next();
-    point2d& value();
+    point2d value();
+
+    operator point2d() const {
+        point2d n;
+        n.row = p_.row + delta_[i_].row;
+        n.col = p_.col + delta_[i_].col;
+        return n;
+    }
 
 private:
+    unsigned nrows_, ncols_;
     std::vector<point2d> delta_;
     unsigned i_;
     point2d p_ = point2d(0, 0);
