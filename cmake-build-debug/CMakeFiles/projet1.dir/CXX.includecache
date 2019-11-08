@@ -35,8 +35,6 @@ queue
 -
 utils.h
 /home/josselin/Documents/cpp_genericity/genericity_cpp_project/utils.h
-image_through.h
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/image_through.h
 image2d.h
 /home/josselin/Documents/cpp_genericity/genericity_cpp_project/image2d.h
 box2d_iterator.h
@@ -49,12 +47,6 @@ partial_image2d.h
 /home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_image2d.h
 image_through.h
 /home/josselin/Documents/cpp_genericity/genericity_cpp_project/image_through.h
-
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.cpp
-iostream
--
-neighb2d_iterator.h
-/home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.h
 
 /home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.h
 vector
