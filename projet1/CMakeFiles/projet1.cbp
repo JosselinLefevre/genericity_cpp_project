@@ -95,6 +95,9 @@
 		<Unit filename="C:/Users/Valentin/CLionProjects/genericity_cpp_project/image2d.h">
 			<Option target="projet1"/>
 		</Unit>
+		<Unit filename="C:/Users/Valentin/CLionProjects/genericity_cpp_project/image_through.h">
+			<Option target="projet1"/>
+		</Unit>
 		<Unit filename="C:/Users/Valentin/CLionProjects/genericity_cpp_project/main.cpp">
 			<Option target="projet1"/>
 		</Unit>
@@ -114,9 +117,6 @@
 			<Option target="projet1"/>
 		</Unit>
 		<Unit filename="C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d_iterator.h">
-			<Option target="projet1"/>
-		</Unit>
-		<Unit filename="C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_image2d.cpp">
 			<Option target="projet1"/>
 		</Unit>
 		<Unit filename="C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_image2d.h">

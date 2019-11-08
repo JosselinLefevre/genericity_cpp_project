@@ -13,10 +13,12 @@ CMakeFiles/projet1.dir/box2d_iterator.cpp.obj: ../../point2d.h
 CMakeFiles/projet1.dir/main.cpp.obj: ../../box2d.h
 CMakeFiles/projet1.dir/main.cpp.obj: ../../box2d_iterator.h
 CMakeFiles/projet1.dir/main.cpp.obj: ../../image2d.h
+CMakeFiles/projet1.dir/main.cpp.obj: ../../image_through.h
 CMakeFiles/projet1.dir/main.cpp.obj: ../../main.cpp
 CMakeFiles/projet1.dir/main.cpp.obj: ../../neighb2d_iterator.h
 CMakeFiles/projet1.dir/main.cpp.obj: ../../partial_box2d.h
 CMakeFiles/projet1.dir/main.cpp.obj: ../../partial_box2d_iterator.h
+CMakeFiles/projet1.dir/main.cpp.obj: ../../partial_image2d.h
 CMakeFiles/projet1.dir/main.cpp.obj: ../../point2d.h
 CMakeFiles/projet1.dir/main.cpp.obj: ../../utils.h
 

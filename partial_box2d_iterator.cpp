@@ -1,5 +1,5 @@
 //
-// Created by valentin on 08/11/2019.
+// Created by Valentin on 08/11/2019.
 //
 
 #include "partial_box2d_iterator.h"
@@ -15,7 +15,7 @@ void partial_box2d_iterator::start() {
 }
 
 bool partial_box2d_iterator::is_valid() {
-    return dom_.has(curr_p);
+    return curr_p.row < dom_.rows();
 }
 
 void partial_box2d_iterator::next() {

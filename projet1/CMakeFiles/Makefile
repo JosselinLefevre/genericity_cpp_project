@@ -284,33 +284,6 @@ partial_box2d_iterator.cpp.s:
 	$(MAKE) -f CMakeFiles\projet1.dir\build.make CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.s
 .PHONY : partial_box2d_iterator.cpp.s
 
-partial_image2d.obj: partial_image2d.cpp.obj
-
-.PHONY : partial_image2d.obj
-
-# target to build an object file
-partial_image2d.cpp.obj:
-	$(MAKE) -f CMakeFiles\projet1.dir\build.make CMakeFiles/projet1.dir/partial_image2d.cpp.obj
-.PHONY : partial_image2d.cpp.obj
-
-partial_image2d.i: partial_image2d.cpp.i
-
-.PHONY : partial_image2d.i
-
-# target to preprocess a source file
-partial_image2d.cpp.i:
-	$(MAKE) -f CMakeFiles\projet1.dir\build.make CMakeFiles/projet1.dir/partial_image2d.cpp.i
-.PHONY : partial_image2d.cpp.i
-
-partial_image2d.s: partial_image2d.cpp.s
-
-.PHONY : partial_image2d.s
-
-# target to generate assembly for a file
-partial_image2d.cpp.s:
-	$(MAKE) -f CMakeFiles\projet1.dir\build.make CMakeFiles/projet1.dir/partial_image2d.cpp.s
-.PHONY : partial_image2d.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -338,9 +311,6 @@ help:
 	@echo ... partial_box2d_iterator.obj
 	@echo ... partial_box2d_iterator.i
 	@echo ... partial_box2d_iterator.s
-	@echo ... partial_image2d.obj
-	@echo ... partial_image2d.i
-	@echo ... partial_image2d.s
 .PHONY : help
 
 

@@ -5,7 +5,7 @@
 #include <iostream>
 #include "neighb2d_iterator.h"
 
-neighb2d_iterator::neighb2d_iterator(unsigned nrows, unsigned ncols) : i_{0}, nrows_{nrows}, ncols_{ncols} {
+neighb2d_iterator::neighb2d_iterator() : i_{0} {
     delta_.emplace_back(-1, 0);
     delta_.emplace_back(0, -1);
     delta_.emplace_back(1, 0);
@@ -30,7 +30,10 @@ void neighb2d_iterator::next() {
 }
 
 point2d neighb2d_iterator::value() {
-    return point2d();
+    point2d n;
+    n.row = p_.row + delta_[i_].row;
+    n.col = p_.col + delta_[i_].col;
+    return n;
 }
 
 
