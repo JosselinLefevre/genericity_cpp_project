@@ -4,6 +4,7 @@
 #include "utils.h"
 #include "image2d.h"
 #include "box2d_iterator.h"
+#include "partial_box2d_iterator.h"
 #include "neighb2d_iterator.h"
 
 using bool_t = unsigned ;
@@ -49,19 +50,29 @@ image2d<unsigned> compute_dmap__SPECIFIC(const image2d<bool_t>& input)
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    std::vector<bool_t> v{0,0,1,0,
-                       1,0,0,1,
-                       0,0,0,0,
-                       0,1,0,0};
+
+    std::vector<unsigned> v{2, 1, 1, 1, 0,
+                                    0, 0, 0, 1, 0,
+                                    0, 1, 1, 1, 0,
+                                    0, 1, 0, 1, 0,
+                                    1, 1, 0, 0, 0,
+                                    0, 1, 1, 1, 3};
+
+    image2d<unsigned> ima = image2d<unsigned>(6,5,v);
+    partial_box2d box = partial_box2d(ima);
+    partial_box2d_iterator it = partial_box2d_iterator(box);
 
 
-
-    image2d<bool_t> a = image2d<bool_t>(4,4,v);
+    box2d D = ima.domain();
+    const unsigned max = std::numeric_limits<unsigned>::max();
+    image2d<unsigned>dmap(D);
+    for (it.start(); it.is_valid(); it.next())
+        dmap(it.value()) = max;
 
     std::cout<<"Image de base"<<std::endl;
-    utils::print_image(std::cout, a);
-    auto d = compute_dmap__SPECIFIC(a);
+    utils::print_image(std::cout, ima);
+    auto d = compute_dmap__SPECIFIC(ima);
     std::cout<<"Image modifiée"<<std::endl;
-    utils::print_image(std::cout, d);
+    utils::print_image(std::cout, dmap);
     return 0;
 }

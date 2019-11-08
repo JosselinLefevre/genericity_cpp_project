@@ -1,29 +1,28 @@
 //
-// Created by josselin on 16/10/2019.
+// Created by valentin on 08/11/2019.
 //
+
 #pragma once
 
 #include "point2d.h"
+#include "image2d.h"
 
-class box2d_iterator;
+class partial_box2d_iterator;
 class neighb2d_iterator;
 
-class box2d {
+class partial_box2d {
 public:
     using point_type = point2d;
-    using p_iterator_type = box2d_iterator;
+    using p_iterator_type = partial_box2d_iterator;
     using n_iterator_type = neighb2d_iterator;
-    box2d(const point_type &fp, const point_type &lp);
-    box2d();
-    ~box2d();
-    box2d& operator=(const box2d& b);
-
-    point_type fp_;
-    point_type lp_;
+    explicit partial_box2d(image2d<unsigned> &ima);
+    partial_box2d();
+    ~partial_box2d();
+    partial_box2d& operator=(const partial_box2d& b);
     bool has(const point_type &p) const;
     int rows() const;
     int cols() const;
+    image2d<unsigned> ima_;
 private:
-    int nrows, ncols;
 };
 

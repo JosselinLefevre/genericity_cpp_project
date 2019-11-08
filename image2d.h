@@ -19,6 +19,7 @@ public :
     using n_iterator_type = typename domain_type::n_iterator_type;
 
     explicit image2d(const domain_type& d);
+    image2d();
     image2d(unsigned nrows, unsigned ncols);
     image2d(unsigned nrows, unsigned ncols, std::vector<T>& v);
 
@@ -41,9 +42,13 @@ template<typename T>
 image2d<T>::image2d(unsigned nrows, unsigned ncols) : nrows_{nrows}, ncols_{ncols} {
 
 }
+template<typename T>
+image2d<T>::image2d() : nrows_{0}, ncols_{0} {
+
+}
 
 template<typename T>
-image2d<T>::image2d(unsigned nrows, unsigned ncols, std::vector<T> &v) : nrows_{nrows}, ncols_{ncols}, d_{domain_type(point2d(), point2d(ncols-1, nrows-1))}{
+image2d<T>::image2d(unsigned nrows, unsigned ncols, std::vector<T> &v) : nrows_{nrows}, ncols_{ncols}, d_{domain_type(point2d(), point2d(nrows-1, ncols-1))}{
     assert(v.size() == ncols*nrows);
     data_ = v;
 }

@@ -22,11 +22,6 @@ void neighb2d_iterator::start() {
 }
 
 bool neighb2d_iterator::is_valid() {
-    point2d a = point2d();
-    if(!(a.row<nrows_&&a.col<nrows_&&a.row>=0&&a.col>=0)&&i_<5)
-        i_++;
-    //jepsere que ca marche
-
     return i_<5;
 }
 
