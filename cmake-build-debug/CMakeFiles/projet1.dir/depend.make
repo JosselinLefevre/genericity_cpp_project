@@ -13,6 +13,7 @@ CMakeFiles/projet1.dir/box2d_iterator.cpp.o: ../point2d.h
 CMakeFiles/projet1.dir/main.cpp.o: ../box2d.h
 CMakeFiles/projet1.dir/main.cpp.o: ../box2d_iterator.h
 CMakeFiles/projet1.dir/main.cpp.o: ../image2d.h
+CMakeFiles/projet1.dir/main.cpp.o: ../image_through.h
 CMakeFiles/projet1.dir/main.cpp.o: ../main.cpp
 CMakeFiles/projet1.dir/main.cpp.o: ../neighb2d_iterator.h
 CMakeFiles/projet1.dir/main.cpp.o: ../point2d.h

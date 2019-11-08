@@ -16,7 +16,7 @@ public:
     void start();
     bool is_valid();
     void next();
-    point2d value();
+    static point2d value();
 
     operator point2d() const {
         point2d n;
