@@ -9,22 +9,6 @@
 
 namespace utils {
 
-    struct fun_zeros
-    {
-        using result_type = unsigned;
-        result_type operator()(unsigned x) const {
-            return x == 2 ? 1 : 0;
-        }
-    };
-
-    struct fun_id
-    {
-        using result_type = unsigned;
-        result_type operator()(unsigned x) const {
-            return x;
-        }
-    };
-
 // Compute the maximum value of an image
     template <typename Img>
     typename Img::value_type max(const Img& img)

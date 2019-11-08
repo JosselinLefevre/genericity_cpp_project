@@ -5,6 +5,22 @@
 
 #include "box2d.h"
 
+struct fun_zeros
+{
+    using result_type = unsigned;
+    result_type operator()(unsigned x) const {
+        return x == 2 ? 1 : 0;
+    }
+};
+
+struct fun_id
+{
+    using result_type = unsigned;
+    result_type operator()(unsigned x) const {
+        return x;
+    }
+};
+
 template <typename I, typename F>
 class image_through
 {
@@ -16,7 +32,7 @@ public:
     using n_iterator_type = typename I::domain_type::n_iterator_type;
 // ctor:
     image_through(const I& ima, F f) : ima_(ima), f_(f) {}
-    explicit image_through(const I& ima) : image_through(ima, utils::fun_id()) {}
+    explicit image_through(const I& ima) : image_through(ima, fun_id()) {}
 
 // access to pixel values:
     value_type operator()(const point_type& p) const

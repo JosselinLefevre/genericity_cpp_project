@@ -26,15 +26,17 @@ public :
     const domain_type& domain() const;
     box2d bounding_box() const;
 
+    std::vector<T> getData();
+
     T& operator()(const point_type& p);
     T operator()(const point_type& p) const;
 
-    domain_type dom_;
 
 private:
     int ncols_;
     int nrows_;
     std::vector<T> data_;
+    domain_type dom_;
 };
 
 template<typename T>
@@ -61,6 +63,10 @@ auto image2d<T>::domain() const -> const domain_type& {
     return dom_;
 }
 
+template<typename T>
+std::vector<T> image2d<T>::getData(){
+    return data_;
+}
 
 template<typename T>
 box2d image2d<T>::bounding_box() const { return dom_; }

@@ -23,6 +23,7 @@ public :
 
     const domain_type& domain() const;
     box2d bounding_box() const;
+    void setDomain(const domain_type& d);
 
     T& operator()(const point_type& p);
     T operator()(const point_type& p) const;
@@ -57,6 +58,11 @@ partial_image2d<T>::partial_image2d(unsigned nrows, unsigned ncols, std::vector<
 template<typename T>
 auto partial_image2d<T>::domain() const -> const domain_type& {
     return dom_;
+}
+
+template<typename T>
+void partial_image2d<T>::setDomain(const domain_type& d) {
+    dom_ = d;
 }
 
 template<typename T>
