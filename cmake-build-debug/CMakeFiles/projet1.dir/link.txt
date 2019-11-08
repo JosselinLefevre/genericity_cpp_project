@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/projet1.dir/main.cpp.o CMakeFiles/projet1.dir/box2d_iterator.cpp.o CMakeFiles/projet1.dir/neighb2d_iterator.cpp.o CMakeFiles/projet1.dir/box2d.cpp.o  -o projet1 
+/usr/bin/c++  -g   CMakeFiles/projet1.dir/main.cpp.o CMakeFiles/projet1.dir/box2d_iterator.cpp.o CMakeFiles/projet1.dir/neighb2d_iterator.cpp.o CMakeFiles/projet1.dir/box2d.cpp.o CMakeFiles/projet1.dir/partial_box2d.cpp.o CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o  -o projet1 

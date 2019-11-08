@@ -16,10 +16,26 @@ CMakeFiles/projet1.dir/main.cpp.o: ../image2d.h
 CMakeFiles/projet1.dir/main.cpp.o: ../image_through.h
 CMakeFiles/projet1.dir/main.cpp.o: ../main.cpp
 CMakeFiles/projet1.dir/main.cpp.o: ../neighb2d_iterator.h
+CMakeFiles/projet1.dir/main.cpp.o: ../partial_box2d.h
+CMakeFiles/projet1.dir/main.cpp.o: ../partial_box2d_iterator.h
+CMakeFiles/projet1.dir/main.cpp.o: ../partial_image2d.h
 CMakeFiles/projet1.dir/main.cpp.o: ../point2d.h
 CMakeFiles/projet1.dir/main.cpp.o: ../utils.h
 
 CMakeFiles/projet1.dir/neighb2d_iterator.cpp.o: ../neighb2d_iterator.cpp
 CMakeFiles/projet1.dir/neighb2d_iterator.cpp.o: ../neighb2d_iterator.h
 CMakeFiles/projet1.dir/neighb2d_iterator.cpp.o: ../point2d.h
+
+CMakeFiles/projet1.dir/partial_box2d.cpp.o: ../box2d.h
+CMakeFiles/projet1.dir/partial_box2d.cpp.o: ../image2d.h
+CMakeFiles/projet1.dir/partial_box2d.cpp.o: ../partial_box2d.cpp
+CMakeFiles/projet1.dir/partial_box2d.cpp.o: ../partial_box2d.h
+CMakeFiles/projet1.dir/partial_box2d.cpp.o: ../point2d.h
+
+CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o: ../box2d.h
+CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o: ../image2d.h
+CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o: ../partial_box2d.h
+CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o: ../partial_box2d_iterator.cpp
+CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o: ../partial_box2d_iterator.h
+CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o: ../point2d.h
 

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/projet1.dir/box2d_iterator.cpp.o"
   "CMakeFiles/projet1.dir/neighb2d_iterator.cpp.o"
   "CMakeFiles/projet1.dir/box2d.cpp.o"
+  "CMakeFiles/projet1.dir/partial_box2d.cpp.o"
+  "CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o"
   "projet1.pdb"
   "projet1"
 )

@@ -11,9 +11,7 @@ box2d::box2d(const box2d::point_type &fp, const box2d::point_type &lp) : lp_{lp}
 box2d::box2d() : box2d(point2d(), point2d()){
 }
 
-box2d::~box2d() {
-    //std::cout<<"destroy box"<<std::endl;
-}
+box2d::~box2d() = default;
 
 bool box2d::has(const box2d::point_type &p) const {
     return (p.col >= fp_.col && p.col <= lp_.col && p.row >= fp_.row && p.row <= lp_.row);

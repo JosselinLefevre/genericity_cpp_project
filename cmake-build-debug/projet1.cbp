@@ -111,6 +111,21 @@
 		<Unit filename="/home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.h">
 			<Option target="projet1"/>
 		</Unit>
+		<Unit filename="/home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d.cpp">
+			<Option target="projet1"/>
+		</Unit>
+		<Unit filename="/home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d.h">
+			<Option target="projet1"/>
+		</Unit>
+		<Unit filename="/home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d_iterator.cpp">
+			<Option target="projet1"/>
+		</Unit>
+		<Unit filename="/home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d_iterator.h">
+			<Option target="projet1"/>
+		</Unit>
+		<Unit filename="/home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_image2d.h">
+			<Option target="projet1"/>
+		</Unit>
 		<Unit filename="/home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h">
 			<Option target="projet1"/>
 		</Unit>

@@ -17,9 +17,25 @@ CMakeFiles/projet1.dir/main.cpp.o
  /home/josselin/Documents/cpp_genericity/genericity_cpp_project/image_through.h
  /home/josselin/Documents/cpp_genericity/genericity_cpp_project/main.cpp
  /home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d_iterator.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_image2d.h
  /home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h
  /home/josselin/Documents/cpp_genericity/genericity_cpp_project/utils.h
 CMakeFiles/projet1.dir/neighb2d_iterator.cpp.o
  /home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.cpp
  /home/josselin/Documents/cpp_genericity/genericity_cpp_project/neighb2d_iterator.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h
+CMakeFiles/projet1.dir/partial_box2d.cpp.o
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/image2d.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d.cpp
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h
+CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/box2d.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/image2d.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d.h
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d_iterator.cpp
+ /home/josselin/Documents/cpp_genericity/genericity_cpp_project/partial_box2d_iterator.h
  /home/josselin/Documents/cpp_genericity/genericity_cpp_project/point2d.h

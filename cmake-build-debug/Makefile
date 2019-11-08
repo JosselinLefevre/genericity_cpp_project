@@ -231,6 +231,60 @@ neighb2d_iterator.cpp.s:
 	$(MAKE) -f CMakeFiles/projet1.dir/build.make CMakeFiles/projet1.dir/neighb2d_iterator.cpp.s
 .PHONY : neighb2d_iterator.cpp.s
 
+partial_box2d.o: partial_box2d.cpp.o
+
+.PHONY : partial_box2d.o
+
+# target to build an object file
+partial_box2d.cpp.o:
+	$(MAKE) -f CMakeFiles/projet1.dir/build.make CMakeFiles/projet1.dir/partial_box2d.cpp.o
+.PHONY : partial_box2d.cpp.o
+
+partial_box2d.i: partial_box2d.cpp.i
+
+.PHONY : partial_box2d.i
+
+# target to preprocess a source file
+partial_box2d.cpp.i:
+	$(MAKE) -f CMakeFiles/projet1.dir/build.make CMakeFiles/projet1.dir/partial_box2d.cpp.i
+.PHONY : partial_box2d.cpp.i
+
+partial_box2d.s: partial_box2d.cpp.s
+
+.PHONY : partial_box2d.s
+
+# target to generate assembly for a file
+partial_box2d.cpp.s:
+	$(MAKE) -f CMakeFiles/projet1.dir/build.make CMakeFiles/projet1.dir/partial_box2d.cpp.s
+.PHONY : partial_box2d.cpp.s
+
+partial_box2d_iterator.o: partial_box2d_iterator.cpp.o
+
+.PHONY : partial_box2d_iterator.o
+
+# target to build an object file
+partial_box2d_iterator.cpp.o:
+	$(MAKE) -f CMakeFiles/projet1.dir/build.make CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.o
+.PHONY : partial_box2d_iterator.cpp.o
+
+partial_box2d_iterator.i: partial_box2d_iterator.cpp.i
+
+.PHONY : partial_box2d_iterator.i
+
+# target to preprocess a source file
+partial_box2d_iterator.cpp.i:
+	$(MAKE) -f CMakeFiles/projet1.dir/build.make CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.i
+.PHONY : partial_box2d_iterator.cpp.i
+
+partial_box2d_iterator.s: partial_box2d_iterator.cpp.s
+
+.PHONY : partial_box2d_iterator.s
+
+# target to generate assembly for a file
+partial_box2d_iterator.cpp.s:
+	$(MAKE) -f CMakeFiles/projet1.dir/build.make CMakeFiles/projet1.dir/partial_box2d_iterator.cpp.s
+.PHONY : partial_box2d_iterator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +306,12 @@ help:
 	@echo "... neighb2d_iterator.o"
 	@echo "... neighb2d_iterator.i"
 	@echo "... neighb2d_iterator.s"
+	@echo "... partial_box2d.o"
+	@echo "... partial_box2d.i"
+	@echo "... partial_box2d.s"
+	@echo "... partial_box2d_iterator.o"
+	@echo "... partial_box2d_iterator.i"
+	@echo "... partial_box2d_iterator.s"
 .PHONY : help
 
 

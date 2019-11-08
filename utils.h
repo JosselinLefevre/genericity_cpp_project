@@ -8,6 +8,7 @@
 
 
 namespace utils {
+
 // Compute the maximum value of an image
     template <typename Img>
     typename Img::value_type max(const Img& img)
