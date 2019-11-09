@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Valentin/CLionProjects/genericity_cpp_project/box2d.cpp
+box2d.h
+C:/Users/Valentin/CLionProjects/genericity_cpp_project/box2d.h
+
 C:/Users/Valentin/CLionProjects/genericity_cpp_project/box2d.h
 point2d.h
 C:/Users/Valentin/CLionProjects/genericity_cpp_project/point2d.h
@@ -28,8 +32,6 @@ C:/Users/Valentin/CLionProjects/genericity_cpp_project/box2d.h
 
 C:/Users/Valentin/CLionProjects/genericity_cpp_project/main.cpp
 iostream
--
-limits
 -
 queue
 -
@@ -54,11 +56,19 @@ vector
 point2d.h
 C:/Users/Valentin/CLionProjects/genericity_cpp_project/point2d.h
 
+C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d.cpp
+partial_box2d.h
 C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d.h
-point2d.h
-C:/Users/Valentin/CLionProjects/genericity_cpp_project/point2d.h
+
+C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d.h
 image2d.h
 C:/Users/Valentin/CLionProjects/genericity_cpp_project/image2d.h
+
+C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d_iterator.cpp
+partial_box2d_iterator.h
+C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d_iterator.h
+iostream
+-
 
 C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d_iterator.h
 partial_box2d.h
@@ -67,10 +77,10 @@ C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d.h
 C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_image2d.h
 vector
 -
-partial_box2d.h
-C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d.h
 cassert
 -
+partial_box2d.h
+C:/Users/Valentin/CLionProjects/genericity_cpp_project/partial_box2d.h
 
 C:/Users/Valentin/CLionProjects/genericity_cpp_project/point2d.h
 iostream

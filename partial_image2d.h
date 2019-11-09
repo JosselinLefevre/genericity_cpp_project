@@ -3,9 +3,10 @@
 //
 
 #pragma once
+
 #include <vector>
-#include "partial_box2d.h"
 #include <cassert>
+#include "partial_box2d.h"
 
 template <typename T>
 class partial_image2d {

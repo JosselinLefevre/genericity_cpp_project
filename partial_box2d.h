@@ -1,10 +1,9 @@
 //
-// Created by valentin on 08/11/2019.
+// Created by Valentin on 08/11/2019.
 //
 
 #pragma once
 
-#include "point2d.h"
 #include "image2d.h"
 
 class partial_box2d_iterator;

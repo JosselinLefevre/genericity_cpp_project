@@ -1,9 +1,7 @@
 //
 // Created by josselin on 16/10/2019.
 //
-
-#ifndef PROJET1_IMAGE2D_H
-#define PROJET1_IMAGE2D_H
+#pragma once
 
 #include <vector>
 #include "box2d.h"
@@ -82,5 +80,3 @@ T image2d<T>::operator()(const image2d::point_type &p) const {
     unsigned nc = dom_.cols();
     return data_[p.row * nc + p.col];
 }
-
-#endif //PROJET1_IMAGE2D_H

@@ -112,20 +112,4 @@ namespace utils {
         return os;
     }
 
-    struct fun_sqr
-    {
-        using result_type = unsigned;
-        result_type operator()(unsigned x) const {
-            return x * x;
-        }
-    };
-    struct fun_equal
-    {
-        using result_type = bool;
-        result_type operator()(unsigned x) const {
-            return x == val_;
-        }
-        unsigned val_;
-    };
-
 } // namespace utils

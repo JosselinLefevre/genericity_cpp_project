@@ -2,7 +2,6 @@
 // Created by Valentin on 08/11/2019.
 //
 
-#include <iostream>
 #include "partial_box2d.h"
 
 partial_box2d::partial_box2d(image2d<unsigned> &ima) : ima_{ima}{
