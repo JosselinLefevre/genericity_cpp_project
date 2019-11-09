@@ -16,8 +16,8 @@ public :
     using p_iterator_type = typename domain_type::p_iterator_type;
     using n_iterator_type = typename domain_type::n_iterator_type;
 
-    explicit partial_image2d(const domain_type& d);
     partial_image2d();
+    explicit partial_image2d(const domain_type& d);
     partial_image2d(unsigned nrows, unsigned ncols);
     partial_image2d(unsigned nrows, unsigned ncols, std::vector<T>& v);
 

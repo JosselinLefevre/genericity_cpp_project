@@ -18,8 +18,8 @@ public :
     using p_iterator_type = typename domain_type::p_iterator_type;
     using n_iterator_type = typename domain_type::n_iterator_type;
 
-    explicit image2d(const domain_type& d);
     image2d();
+    explicit image2d(const domain_type& d);
     image2d(int nrows, int ncols);
     image2d(int nrows, int ncols, std::vector<T>& v);
 
